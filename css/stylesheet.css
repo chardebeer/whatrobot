@@ -22,7 +22,7 @@ body {
 
 .nav-item li {
   display: inline;
-  margin: 0px;
+  margin: 0;
 }
 
 .nav-item li a:hover {
@@ -99,9 +99,7 @@ body {
   border-radius: 5px;
 }
 
-#submit-btn: hover {
-  background-color: darkorange;
-}
+
 
 .img-holder {
   position: relative;
@@ -172,8 +170,8 @@ body {
 
 .product-container-img {
   width: 100%;
-  position: relative
-  height 100%;
+  position: relative;
+  height: 100%;
   top: 20px;
   bottom: 20px;
 }
@@ -209,7 +207,7 @@ body {
   border-radius: 5px;
 }
 
-.view-more-btn: hover {
+.view-more-btn:hover {
   background-color: darkorange;
 }
 
