@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>What Robot</title>
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+  <div class="nav-wrapper">
+    <nav>
+      <ul class="nav-list list" >
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Order Online</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="image-holder">
+    <!-- NOTE: You should never name files or folders with spaces in them!! This is all really bad structure / methods-->
+
+    <img class="background-img" src="background.jpg" alt="background">
+    <h1 id="caption-1">GRAPHIC DESIGNER</h1>
+  </div>
+
+  <h1 id="pop-cat">PRODUCT CATEGORIES</h1>
+
+<!--NOTE: It is really bad to use static units for sites, they should be responsive. Also inline css = bad -->
+  <hr>
+  <div class="featured-wrapper">
+
+    <!-- THIS IS THE BRANDING CATEGORY -->
+    <div class="product-container">
+      <p class="cat-text">BRANDING</p>
+      <img class="product-container-img" src="Products/Branding.jpg">
+      <div class="btn-container">
+        <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+      </div>
+    </div>
+
+    <!-- THIS IS THE DIGITAL ARTS CATEGORY -->
+    <div class="product-container">
+      <p class="cat-text">DIGITAL ART</p>
+      <img class="product-container-img" src="Products/Digital%20Art.jpg">
+      <div class="btn-container">
+        <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+      </div>
+    </div>
+
+    <!-- THIS IS THE PATTERNS CATEGORY -->
+    <div class="product-container">
+      <p class="cat-text">PATTERNS</p>
+      <img class="product-container-img" src="Products/Patterns.jpg">
+      <div class="btn-container">
+        <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- THIS IS THE SOCIAL MEDIA LINKS SECTION -->
+  <div class="sidebar">
+
+
+      <a>
+        <img id="facebook"  src="icons/facebook-square.svg" >
+
+      </a>
+
+      <a>
+        <img id="instagram" src="icons/instagram-square.svg" alt="instagram">
+      </a>
+
+  </div>
+
+
+  <br>
+
+
+
+<!--You need javascript for forms.. thats why this isn't working
+
+      <label class="form-item" for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name">
+      <br><br>
+
+      <label class="form-item" for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      <br><br>
+
+      <label class="form-item" for="subject">Subject</label>
+      <textarea id="fname" name="subject" placeholder="How can we help?"></textarea>
+      <br><br>
+
+    </form>
+
+  </div>
+
+--->
+
+                <!-- Form -->
+                <div class="nb-form">
+                    <p class="title">Send a message
+                        <img src="icons/email-square.svg" alt="" class="user-icon">
+                    </p>
+                    <p class="message">Send a message and I'll get back to you as soon as possible</p>
+
+                    <form>
+                        <input type="text" name="cpname" placeholder="Name:" required>
+                        <input type="email" name="cpemail" placeholder="Email:" required>
+                        <input type="tel" name="cpphone" placeholder="Phone:" required>
+                        <textarea name="cpmessage" placeholder="Message:" required></textarea>
+                        <input type="submit" value="Send message">
+                    </form>
+                </div>
+</body>
+
+</html>
